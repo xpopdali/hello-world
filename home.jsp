@@ -1,0 +1,93 @@
+﻿<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>CNAM</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="css/owl.carousel.css" rel="stylesheet">
+  <link href="css/owl.theme.css" rel="stylesheet">
+  <script src="js/jquery-1.12.0.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/owl.carousel.js"></script>
+</head>
+<body>
+	<!--header -->
+<%@ include file="header.jsp" %>
+	<div id="global">
+		<div class="content">
+			<ul class="right-row">
+				<li><a href="#"><img src="images/btt-service.png"></a></li>
+				<li><a href="#"><img src="images/btt-centre.png"></a></li>
+				<li><a href="#"><img src="images/btt-data.png"></a></li>
+				<li><a href="#"><img src="images/btt-pok.png"></a></li>
+			</ul>
+			<div class="actualites">
+				<h3>Actualité :</h3>
+				<div id="owl-actu" class="owl-carousel">
+				  <div>
+				  	<h4>Ouverture Centre Hammamet</h4>
+				  	<p>
+							Le ministre des affaires sociales Mr. Ahmed Ammar Youmbai
+							a inauguré le nouveau centre régional de la CNAM et ce
+							le samedi 04 Avril 2015. 
+						</p>
+				  </div>
+				  <div>
+				  	<h4>Ouverture Centre Hammamet</h4>
+				  	<p>
+							Le ministre des affaires sociales Mr. Ahmed Ammar Youmbai
+							a inauguré le nouveau centre régional de la CNAM et ce
+							le samedi 04 Avril 2015. 
+						</p>
+				  </div>
+				  <div>
+				  	<h4>Ouverture Centre Hammamet</h4>
+				  	<p>
+							Le ministre des affaires sociales Mr. Ahmed Ammar Youmbai
+							a inauguré le nouveau centre régional de la CNAM et ce
+							le samedi 04 Avril 2015. 
+						</p>
+				  </div>
+				  <div>
+				  	<h4>Ouverture Centre Hammamet</h4>
+				  	<p>
+							Le ministre des affaires sociales Mr. Ahmed Ammar Youmbai
+							a inauguré le nouveau centre régional de la CNAM et ce
+							le samedi 04 Avril 2015. 
+						</p>
+				  </div>
+				  <div>
+				  	<h4>Ouverture Centre Hammamet</h4>
+				  	<p>
+							Le ministre des affaires sociales Mr. Ahmed Ammar Youmbai
+							a inauguré le nouveau centre régional de la CNAM et ce
+							le samedi 04 Avril 2015. 
+						</p>
+				  </div>	
+     		</div>
+			</div>
+			<div id="owl-slider" class="owl-carousel">
+				<div><img src="images/imageSlider.jpg"></div>
+				<div><img src="images/imageSlider.jpg"></div>
+				<div><img src="images/imageSlider.jpg"></div>
+				<div><img src="images/imageSlider.jpg"></div>
+				<div><img src="images/imageSlider.jpg"></div>
+			</div>
+			<ul id="buttonHome">
+				<li><a href="#"><img src="images/btt-assure.png"></a></li>
+				<li><a href="#"><img src="images/btt-espacePro.png"></a></li>
+				<li><a href="#"><img src="images/btt-entreprise.png"></a></li>
+			</ul>
+			
+		</div>
+		<!--footer -->
+<%@ include file="footer.jsp" %>
+	</div>
+</body>
+</html>
+
+
+
+
